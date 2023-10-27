@@ -1,6 +1,6 @@
-# Nuxt 3 Minimal Starter
+# Nuxt 3 Backend API Starter
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+A simple backend api configuration for nuxt 3. Currently uses mongoDB and nuxt-mongoose module
 
 ## Setup
 
@@ -18,6 +18,13 @@ yarn install
 
 # bun
 bun install
+```
+
+## Environment setup
+Create .env file in your root directory and provide your base url and mongoDB connection url like so:
+```js
+BASE_URL=url
+CONNECTION_URL=db-url
 ```
 
 ## Development Server
